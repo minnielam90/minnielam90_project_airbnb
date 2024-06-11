@@ -1,0 +1,68 @@
+.bg_login {
+    background-image: url(./image/logoBG.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .btnDangNhap:hover {
+    background-color: #991b1b !important;
+  }
+  .btnQuenMK:hover {
+    color: red !important;
+    border-bottom: 1px solid red;
+  }
+  .btnDangKyNgay:hover {
+    color: red !important;
+    border-bottom: 1px solid red;
+  }
+  .btnDangNhap {
+    background-color: rgb(239, 68, 68) !important;
+  }
+
+
+  /* responsive */
+/* >lap */
+@media screen and (min-width: 1200px) {
+}
+/* lap */
+@media screen and (max-width: 1200px) {
+  .loginUser {
+    width: 80% !important;
+  }
+  .loginUser .titleDangNhapUser {
+    height: 90px;
+    flex-wrap: wrap;
+  }
+  .loginUser h2 {
+    font-size: 25px !important;
+    margin-left: 240px !important;
+  }
+}
+/* tap */
+@media screen and (max-width: 992px) {
+  .loginUser {
+    width: 80% !important;
+  }
+  .loginUser .titleDangNhapUser {
+    height: 90px;
+    flex-wrap: wrap;
+  }
+  .loginUser h2 {
+    font-size: 25px !important;
+    margin-left: 130px !important;
+  }
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+  .loginUser {
+    width: 80% !important;
+  }
+  .loginUser .titleDangNhapUser {
+    height: 90px;
+    flex-wrap: wrap;
+  }
+  .loginUser h2 {
+    font-size: 20px !important;
+    margin-left: 80px !important;
+  }
+}

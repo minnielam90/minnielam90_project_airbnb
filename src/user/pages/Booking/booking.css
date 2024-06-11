@@ -1,0 +1,70 @@
+.booking_content .ant-picker .ant-picker-input input {
+  color: black !important;
+}
+:where(.css-dev-only-do-not-override-6j9yrn).ant-btn-primary {
+  color: black;
+}
+.ant-picker-ok button {
+  background-color: rgb(255, 56, 92) !important;
+  color: white !important;
+}
+.ant-picker-ok button:disabled {
+  background-color: rgb(255, 56, 92, 0.2) !important;
+  color: white !important;
+}
+.dateFromTo {
+  width: 100%;
+  border: none;
+}
+.booKing_Button button {
+  background-color: #e51d55 !important;
+}
+.booKing_Button button:hover {
+  background-color: #921136 !important;
+}
+.booKing_Button p {
+  color: gray;
+  text-align: center;
+}
+span {
+  cursor: pointer;
+}
+.number {
+  padding-bottom: 5px;
+}
+.minus {
+  margin-left: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #b7bac0 !important;
+}
+.minus:hover {
+  background-color: #757a85 !important;
+}
+
+.plus {
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #b7bac0 !important;
+}
+.plus:hover {
+  background-color: #757a85 !important;
+}
+.soLuongKhachBooking {
+  height: 34px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.userBooking {
+  border: 1px solid black;
+  border-radius: 10px 10px 0 0;
+}
